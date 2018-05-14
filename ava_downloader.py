@@ -1,20 +1,5 @@
 # coding= UTF-8
 
-# Take a look at README first
-#
-# Author: Fing @EI, WHU
-# Finish on 2016-11-13
-#
-# Usage:
-#    $python ava_downloader.py beginIndex endIndex
-#  
-#  Also you can download in multi-process.
-#
-# Make sure AVA.txt and folder 'image' is under the directory 
-# Note: few images may be deleted from the website
-#
-
-
 import urllib
 import re
 import sys
@@ -54,7 +39,7 @@ def getImg(html, imageID, imageIndex):
 
 
 URLprefix = r'http://www.dpchallenge.com/image.php?IMAGE_ID='
-AVAtxt = r'AVA.txt'
+AVAtxt = r'ppp.txt'
 savePath = r'image'
 
 
